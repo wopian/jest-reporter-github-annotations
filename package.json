@@ -1,0 +1,38 @@
+{
+  "name": "@wopian/jest-reporter-github-annotations",
+  "version": "0.0.1",
+  "description": "Report Jest test failures with GitHub annotations",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "lint:ci": "eslint ./",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent",
+    "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --silent --coverage --maxWorkers=2 --reporters=default --reporters=./src/index.js"
+  },
+  "engines": {
+    "node": ">= 14 < 15 || >= 16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wopian/jest-reporter-github-annotations.git"
+  },
+  "author": "wopian <wopian@wopian.me> (https://wopian.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wopian/jest-reporter-github-annotations/issues"
+  },
+  "homepage": "https://github.com/wopian/jest-reporter-github-annotations#readme",
+  "devDependencies": {
+    "@jest/globals": "^27.4.6",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^40.1.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1"
+  }
+}
