@@ -1,0 +1,1 @@
+# jest-reporter-github-annotations
