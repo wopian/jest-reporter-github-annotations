@@ -8,7 +8,8 @@
     "lint": "eslint ./ --fix",
     "lint:ci": "eslint ./",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --silent",
-    "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --silent --coverage --maxWorkers=2 --reporters=default --reporters=./src/index.js"
+    "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --silent --coverage",
+    "coverage:ci": "NODE_OPTIONS=--experimental-vm-modules jest --silent --coverage --maxWorkers=2 --reporters=default --reporters=./src/index.js"
   },
   "engines": {
     "node": ">= 14 < 15 || >= 16"
