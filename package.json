@@ -35,5 +35,9 @@
     "eslint-plugin-unicorn": "^40.1.0",
     "jest": "^27.4.7",
     "prettier": "^2.5.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

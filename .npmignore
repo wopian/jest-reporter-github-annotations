@@ -1,0 +1,12 @@
+.github
+coverage
+node_modules
+*.spec.js
+.editorconfig
+.eslintignore
+.eslintrc.cjs
+.gitignore
+.prettierrc.cjs
+jest.config.js
+*.log
+yarn.lock
