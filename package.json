@@ -1,6 +1,6 @@
 {
   "name": "@wopian/jest-reporter-github-annotations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Report Jest test failures with GitHub annotations",
   "type": "module",
   "main": "src/index.js",
