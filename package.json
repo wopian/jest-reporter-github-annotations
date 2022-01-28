@@ -39,5 +39,19 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "jest",
+    "reporter",
+    "reporters",
+    "integration",
+    "github",
+    "annotations",
+    "ci",
+    "cd",
+    "actions",
+    "workflow",
+    "results",
+    "processor"
+  ]
 }

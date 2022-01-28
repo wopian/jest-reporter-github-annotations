@@ -27,7 +27,7 @@ This reporter only outputs failing test results in GitHub's annotation format, s
 
 ### CLI (preferred)
 
-Add it to your Jest script in `package.json`:
+Add it to your Jest script used by your GitHub Actions workflow in `package.json`:
 
 ```json
 {
@@ -39,7 +39,7 @@ Add it to your Jest script in `package.json`:
 
 ### Jest Configuration
 
-Add it to your Jest configuration in `jest.config.js`:
+Or add it to your Jest configuration in `jest.config.js`:
 
 ```js
 export default {
