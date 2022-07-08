@@ -28,7 +28,7 @@ module.exports = {
     'unicorn/prefer-string-replace-all': 'warn',
     'unicorn/no-unsafe-regex': 'error',
     'unicorn/prefer-at': 'error',
-    'unicorn/prefer-node-protocol': ['error', { checkRequire: true }]
+    'unicorn/prefer-node-protocol': 'error'
   },
   overrides: [
     {
