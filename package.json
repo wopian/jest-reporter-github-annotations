@@ -53,5 +53,10 @@
     "workflow",
     "results",
     "processor"
-  ]
+  ],
+  "renovate": {
+    "extends": [
+      "github>wopian/renovate-config"
+    ]
+  }
 }
