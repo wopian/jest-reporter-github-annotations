@@ -15,6 +15,11 @@
 
 <p align=center>Report Jest test failures directly on pull requests with GitHub annotations</p>
 
+> [!IMPORTANT]
+> [Jest 28](https://jestjs.io/blog/2022/04/25/jest-28) now includes a native GitHub Actions reporter. It is recommended to switch to the official GitHub Actions reporter, but this repository and package won't go away.
+>
+> Check out the [Jest blog post](https://jestjs.io/blog/2022/04/25/jest-28#github-actions-reporter) on how to setup the official Github Actions reporter on your projects! 
+
 ## Install
 
 ```
